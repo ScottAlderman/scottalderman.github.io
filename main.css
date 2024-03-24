@@ -1,0 +1,392 @@
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('poppins-regular.woff2') format('woff2'),
+         url('poppins-regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 300;
+    src: url('poppins-light.woff2') format('woff2'),
+         url('poppins-light.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: url('poppins-bold.woff2') format('woff2'),
+         url('poppins-bold.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 900;
+    src: url('poppins-black.woff2') format('woff2'),
+         url('poppins-black.woff') format('woff');
+}
+
+
+html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+
+}
+
+header p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 1em;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+    
+}
+
+header h1{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1em;
+
+}
+
+header h2{
+    font-size: 1.5em;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #70CBFF;
+   
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        height: 100%;
+        }
+}
+
+@media only screen and (max-width: 1030px) {
+    header {
+        
+        height: 100%;
+        }
+}
+
+.flex1{
+    width: 100%;
+    text-align: right;
+    margin-left: 20%;
+    margin-right: 3%;
+        
+}
+
+@media only screen and (max-width: 1000px) {
+    .flex1 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+}
+.flex2{
+    width: 100%;
+    text-align: left;
+    margin-right: 20%;
+    margin-left: -1%;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .flex2 {
+    width: 100%;
+    text-align: center;
+    margin-right: 0%;
+    margin-left: 0%;
+        }
+}
+
+.socialicons{
+    width: 3rem;
+    height: 3rem;
+    background: #222;
+    color: rgb(255, 255, 255);
+
+}
+
+.socialicons:hover{
+
+    background: #222;
+    fill: #70CBFF;
+}
+
+.highlight {
+    padding: 3px 5px;
+    color: #222;
+    font-family: 'Poppins';
+    font-weight: 900;
+    background: linear-gradient(90deg,#ffffff,#cacaca);
+    text-decoration:none;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .buttons{
+    display: block;
+    
+        }
+}
+
+.button {
+    padding: 5px 15px;
+    font-size: 1rem;
+    background: rgb(31, 31, 31) none repeat scroll 0% 0%;
+    border: 3px solid #c2c2c2;
+    color: #c2c2c2;
+    text-decoration: none;
+    box-shadow: #c2c2c2 2px 2px 0px 0px;
+    cursor: pointer;
+    transition: all 0.22s ease-in-out 0s;
+    font-family: 'Poppins';
+    font-weight: 300;
+
+}
+
+.button:hover{
+    box-shadow: #c2c2c2 5px 5px 0px 0px;
+}
+
+.button a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+
+}
+
+.button1 {
+    padding: 5px 15px;
+    font-size: 1rem;
+    background: rgb(31, 31, 31) none repeat scroll 0% 0%;
+    border: 3px solid #70CBFF;
+    color: #70CBFF;
+    text-decoration: none;
+    box-shadow: #70CBFF 2px 2px 0px 0px;
+    cursor: pointer;
+    transition: all 0.22s ease-in-out 0s;
+    font-family: 'Poppins';
+    font-weight: 300;
+
+}
+
+.button1:hover{
+    box-shadow: #70CBFF 5px 5px 0px 0px;
+
+}
+
+.checkitout{
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+main{
+    background-color: rgb(23, 23, 23);
+    height: 100%;
+    
+
+}
+
+@media only screen and (max-width: 1000px) {
+    main{
+    height: 100%;
+    
+        }
+}
+
+main h1{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1em;
+    text-decoration: underline;
+    text-decoration-color: #70CBFF;
+    padding-top: 5%;
+    text-align: center;
+
+}
+
+main h2{
+    font-size: 1.5em;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #70CBFF;
+}
+
+main p{
+    line-height: 1.5em;
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.oneproject{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    gap: 20px;
+    background-color: rgb(23, 23, 23);
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .oneproject{
+    flex-direction: column;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 5%;
+    
+        }
+}
+
+@media only screen and (max-width: 1000px) {
+    img{
+        width: 100%;
+        height: auto;
+    
+        }
+}
+
+.theinfo{
+    text-align: left;
+      
+}
+
+.projectlanguages{
+    display: flex;
+    gap: 20px;
+}
+
+.language-used {
+    padding: 3px 7px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    background: transparent none repeat scroll 0% 0%;
+    border-bottom: 1px solid rgb(62, 146, 204);
+    border-top: 1px solid rgb(62, 146, 204);
+}
+
+.viewprojectbutton{
+    padding: 5px 15px;
+    font-size: 1rem;
+    background: rgb(31, 31, 31) none repeat scroll 0% 0%;
+    border: 3px solid #70CBFF;
+    color: #70CBFF;
+    text-decoration: none;
+    box-shadow: #70CBFF 2px 2px 0px 0px;
+    cursor: pointer;
+    transition: all 0.22s ease-in-out 0s;
+}
+
+.viewprojectbutton:hover{
+    box-shadow: #70CBFF 5px 5px 0px 0px;
+}
+
+.white{
+    color: white;
+    text-align: center;
+}
+
+.contact-body{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.buttons1{
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    padding: 5px 15px;
+    font-size: 1rem;
+    background: rgb(31, 31, 31) none repeat scroll 0% 0%;
+    border: 3px solid #70CBFF;
+    color: #70CBFF;
+    text-decoration: none;
+    box-shadow: #70CBFF 2px 2px 0px 0px;
+    cursor: pointer;
+    transition: all 0.22s ease-in-out 0s;
+    font-family: 'Poppins';
+    font-weight: 300;
+   
+  }
+  
+  #myBtn:hover {
+    box-shadow: #70CBFF 5px 5px 0px 0px;
+  }
+
+footer {
+    
+    background: rgb(31, 31, 31) none repeat scroll 0% 0%;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 20px 100px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 1030px) {
+    #wrapper {
+        
+        padding-left: 2%;
+        padding-right: 2%;
+        }
+}
+
+
+
+@media only screen and (max-width: 1030px) {
+    .contact-body {
+        
+        text-align: left;
+        }
+}
+
+
